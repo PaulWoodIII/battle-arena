@@ -1,0 +1,28 @@
+{
+  "name": "battle-arena",
+  "version": "1.0.0",
+  "description": "character battle arena validator and state machines",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "battle",
+    "arena",
+    "character",
+    "fight",
+    "rpg"
+  ],
+  "author": "Paul Wood III",
+  "license": "MIT",
+  "dependencies": {
+    "deep-diff": "^0.3.4",
+    "javascript-state-machine": "^2.4.0",
+    "lodash": "^4.17.2",
+    "seedrandom": "^2.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
